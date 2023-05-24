@@ -60,8 +60,8 @@ function showTemperature(response) {
   h1.innerHTML = `The current temperature in your location is ${localTemperature}`;
 }
 
-let geoApi = document.querySelector("#current-location");
-geoApi.addEventListener("submit", currentLocationCall);
+let currentLocation = document.querySelector("#current-location");
+currentLocation.addEventListener("submit", currentLocationCall);
 
 let conversionC = document.querySelector("#convertC");
 conversionC.addEventListener("click", revertConversion);
