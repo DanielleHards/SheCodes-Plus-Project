@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+}
+.background {
+  max-width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+h1,
+h2 {
+  font-family: roboto;
+  text-align: right;
+}
+.col-6 {
+  text-align: center;
+}
+form {
+  font-family: monospace;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
+}
+
+.D1,
+.D2,
+.D3,
+.D4,
+.D5 {
+  font-size: 20px;
+}
+.dayWrapper {
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 85px;
+  width: 85px;
+  margin: 0 auto;
+  text-align: center;
+}
+.col-3 {
+  font-size: 10px;
+}
