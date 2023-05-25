@@ -24,6 +24,9 @@ h3 {
 .col-6 {
   text-align: center;
 }
+.interactiveTime {
+  text-align: center;
+}
 form {
   font-family: monospace;
   text-align: center;
