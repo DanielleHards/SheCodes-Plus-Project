@@ -30,7 +30,7 @@ function submit(event) {
 function getCurrentTemp(response) {
   let h1 = document.querySelector("h1");
   let currentSearchCityTemp = response.data.main.temp;
-  let currentTemp = document.querySelector("#current-temp");
+  let currentTemp = document.querySelector("#value-celcius");
   h1.innerHTML = `${response.data.name}`;
   currentTemp.innerHTML = Math.round(currentSearchCityTemp);
 }
