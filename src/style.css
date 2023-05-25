@@ -25,7 +25,8 @@ h3 {
   text-align: center;
 }
 .interactiveTime {
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 form {
   font-family: monospace;
