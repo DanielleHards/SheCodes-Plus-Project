@@ -16,7 +16,8 @@ img {
   max-width: 100%;
 }
 h1,
-h2 {
+h2,
+h3 {
   font-family: roboto;
   text-align: right;
 }
