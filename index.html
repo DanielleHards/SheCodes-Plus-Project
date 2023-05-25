@@ -22,33 +22,48 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
-<script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
       <div class="opacity-75">
         <img src="images/spring.jpg" class="background" />
       </div>
-      <h1> alexandria, va </h1>
-      <div class="row"></div><div class="col-6"> <div id="interactive-time"></div></div>
-      <div class="col-6"> <div class="currentTemp">
-        56°
-        <i class="bi bi-cloud-rain-heavy currentIcon"></i>
-      </div>
+      <h1>alexandria, va</h1>
+      <div class="row"></div>
+      <div class="col-6"><div id="interactive-time"></div></div>
     </div>
     <h3>
-       <div id="value-celcius">17<a href="null" target="_blank" id="convertC">°C</a> </div> <span><a href="null" target="_blank" id="convertF">°F</a></span>
+      <div id="value-celcius">
+        17<a href="null" target="_blank" id="convertC">°C</a>
+      </div>
+      <span><a href="null" target="_blank" id="convertF">°F</a></span>
     </h3>
     <form id="submit-city">
       <div class="row">
         <div class="col-6">
-          <input type="search" placeholder="city" class="form-control" id="city-input"/>
+          <input
+            type="search"
+            placeholder="city"
+            class="form-control"
+            id="city-input"
+          />
         </div>
         <div class="col-3">
-          <input type="submit" value="search" class="form-control" id="submit-search" />
+          <input
+            type="submit"
+            value="search"
+            class="form-control"
+            id="submit-search"
+          />
         </div>
         <div class="col-3">
-          <input type="submit" value="Location" class="form-control" id="current-location"/>
+          <input
+            type="submit"
+            value="Location"
+            class="form-control"
+            id="current-location"
+          />
         </div>
       </div>
     </form>
@@ -100,7 +115,8 @@
         </div>
       </div>
       <p>
-        This page was created by <a href="https://github.com/DanielleHards">Danielle Hards</a>
+        This page was created by
+        <a href="https://github.com/DanielleHards">Danielle Hards</a>
       </p>
     </div>
     <script src="src/script.js"></script>
